@@ -4,7 +4,6 @@
 **Course:** CP1404/CP5632  
 **Date Started:** 14/11/2025  
 
----
 
 ## Overview
 
@@ -20,8 +19,6 @@ This project demonstrates how to interact with two REST APIs using Python:
    - Provides a description and link to the full article  
 
 The programs show how to send HTTP requests, parse JSON responses, and display information in a clean and readable format.
-
----
 
 ## What APIs Are
 
