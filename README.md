@@ -48,5 +48,27 @@ The programs show how to send HTTP requests, parse JSON responses, and display i
 
 > Including error handling in your Python program ensures the application responds gracefully when an API request fails.
 
-**Use API Documentation Links**
+## Useful API Documentation Links
+
 1. [GitHub REST API documentation](https://docs.github.com/en/rest?apiVersion=2022-11-28)
+
+## Lessons Learned About APIs
+- APIs allow programs to communicate with online services using simple HTTP requests.
+- REST APIs commonly use the GET method to retrieve data.
+- JSON is the standard response format and must be parsed before use.
+- Good error handling is important because APIs can fail (e.g., 404, 500 errors).
+- Some APIs require User-Agent headers or authentication tokens.
+- Reading official documentation is essential for understanding endpoints and parameters.
+## Installation Steps
+
+Before running the program, ensure Python **3.10 or later** is installed.
+
+### Option A: Install using Command Prompt (Windows CMD)
+>pip install requests
+### Option B: Install inside PyCharm
+
+1. Open PyCharm
+2. Go to File → Settings → Project → Python Interpreter
+3. Click + Add Package
+4. Search for requests
+5. Click Install Package
